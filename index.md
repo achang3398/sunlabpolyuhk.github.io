@@ -1,30 +1,30 @@
 ---
 ---
 
-# Lab Website Template
+# Sun Lab at PolyU HK
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+Welcome to the Sun Lab at The Hong Kong Polytechnic University. We conduct research in the areas of neuroscience and linguistics, studying language development in children and adults. 
 
 {%
   include button.html
   type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  link="about"
+  text="About Our Research"
 %}
 {%
   include button.html
   type="github"
   text="On GitHub"
-  link="greenelab/lab-website-template"
+  link="https://achang3398.github.io/sunlabpolyuhk.github.io/"
 %}
 
 {% include section.html %}
 
-## Highlights
+## Sun Lab Research Highlights
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We focus on language development in children and adults, specifically the neuroscience and linguistics behind this concept. We are especially interested in how billingual vs. monolingual children process word meaning and units, as well as how Artificial Intelligence (AI) feedback helps with language learning. 
 
 {%
   include button.html
@@ -39,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="brain weight.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -47,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Current projects include [describe 1-2 key projects, e.g., 3D bioprinting of vascular networks, smart drug delivery systems, etc.]. We collaborate with clinical partners to translate our findings.
 
 {%
   include button.html
@@ -72,7 +72,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our team includes PhD students, postdoctoral researchers, and research assistants working together to advance [your field]. We value collaboration, innovation, and scientific excellence.
 
 {%
   include button.html
