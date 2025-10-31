@@ -1,18 +1,18 @@
 # site properties and page defaults
 title: Sun Lab Website 
-subtitle: by The Polytechnic University of Hong KOng 
+subtitle: The Polytechnic University of Hong Kong
 description: Prototype Test for Sun Lab Website 
 header: images/background2.jpg
 footer: images/background2.jpg
 proofer: false
 
 # site social media and other links
-  links:
+links:
   email: sun@polyu.edu.hk
-  orcid: 852-1234-5678
+  phone: "852-1234-5678"
   google-scholar: TBA
   github: SunLab
-  Instagram: @___
+  instagram: "___"
 
 ### jekyll settings
 
