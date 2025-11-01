@@ -22,4 +22,17 @@
   text-align: center;
 }
 
+/* Team photo styling */
+.portrait-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.portrait-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
 /*# sourceMappingURL=figure.css.map */
