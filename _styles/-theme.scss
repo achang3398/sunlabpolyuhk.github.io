@@ -1,54 +1,67 @@
+/* ===== FRONT MATTER DELIMITERS ===== */
+/* These lines mark the start of the file in Jekyll templates */
 ---
 ---
 
-// colors
+/* ===== LIGHT MODE COLOR THEME ===== */
+/* Applies when data-dark="false" (light mode) */
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
-  --text: #000000;
-  --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
-  --dark-gray: #404040;
-  --overlay: #00000020;
+  /*--primary: #0795d9;       /* Main brand color - used for links, buttons */
+  /*--primary: #1e40af          /* Main brand color - blue */
+ /* --secondary: #7dd3fc;     /* Secondary color - lighter accents */
+ /* --text: #000000;          /* Main text color - black */
+ /* --background: #ffffff;     /* Main background color - white */
+  --primary: #1e40af;    /* Deep blue */
+  --secondary: #3b82f6;  /* Medium blue */
+  --text: #1f2937;       /* Dark gray */
+  --background: #ffffff;  /* White */
+  --background-alt: #fafafa; /* Alternative background - light gray */
+  --light-gray: #e0e0e0;    /* Light gray for borders, dividers */
+  --gray: #808080;          /* Medium gray for secondary text */
+  --dark-gray: #404040;     /* Dark gray for headings */
+  --overlay: #00000020;     /* Semi-transparent overlay (20% opacity black) */
 }
+
+/* ===== DARK MODE COLOR THEME ===== */
+/* Applies when data-dark="true" (dark mode) */
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
-  --dark-gray: #b0b0b0;
-  --overlay: #ffffff10;
+  --primary: #0795d9;       /* Same primary color for consistency */
+  --secondary: #075985;     /* Darker secondary for dark mode */
+  --text: #ffffff;          /* Text color - white */
+  --background: #181818;     /* Main background - dark gray */
+  --background-alt: #1c1c1c; /* Alternative background - slightly lighter dark gray */
+  --light-gray: #404040;    /* Light gray in dark mode - actually dark */
+  --gray: #808080;          /* Medium gray - same in both modes */
+  --dark-gray: #b0b0b0;     /* Dark gray in dark mode - actually light */
+  --overlay: #ffffff10;     /* Semi-transparent overlay (10% opacity white) */
 }
 
+/* ===== GLOBAL CSS VARIABLES ===== */
+/* These apply to both light and dark modes */
 :root {
-  // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
-  --code: "Roboto Mono", monospace;
+  /* ===== FONT FAMILIES ===== */
+  --title: "Barlow", sans-serif;    /* Font for page titles and major headings */
+  --heading: "Barlow", sans-serif;  /* Font for section headings */
+  --body: "Barlow", sans-serif;     /* Font for body text and paragraphs */
+  --code: "Roboto Mono", monospace; /* Font for code blocks and preformatted text */
 
-  // font sizes
-  --large: 1.2rem;
-  --xl: 1.4rem;
-  --xxl: 1.6rem;
+  /* ===== FONT SIZES ===== */
+  --large: 1.2rem;   /* Large text size (1.2x base size) */
+  --xl: 1.4rem;      /* Extra large text size */
+  --xxl: 1.6rem;     /* Double extra large text size */
 
-  // font weights
-  --thin: 200;
-  --regular: 400;
-  --semi-bold: 500;
-  --bold: 600;
+  /* ===== FONT WEIGHTS ===== */
+  --thin: 200;       /* Thin font weight - for subtle text */
+  --regular: 400;    /* Regular font weight - normal body text */
+  --semi-bold: 500;  /* Semi-bold - for emphasis */
+  --bold: 600;       /* Bold - for strong emphasis */
 
-  // text line spacing
-  --spacing: 2;
-  --compact: 1.5;
+  /* ===== LINE SPACING ===== */
+  --spacing: 2;      /* Normal line height (2x text height) */
+  --compact: 1.5;    /* Compact line height - for dense content */
 
-  // effects
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
-  --transition: 0.2s ease;
+  /* ===== VISUAL EFFECTS ===== */
+  --rounded: 3px;           /* Border radius for rounded corners */
+  --shadow: 0 0 10px 0 var(--overlay); /* Box shadow for cards and elements */
+  --transition: 0.2s ease;  /* Transition timing for hover effects */
 }
